@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Validação de Senha</title>
+  <script type= 'text/javascript' src='efeitos.js'></script>
+</head>
+<body>
+  <p>
+  Regras para a formulação da senha:
+  </p>
+  <p>
+    <ul>
+      <li>A senha deve ter pelo menos 8 caracteres.</li>
+      <li>A senha deve possuir pelo menos 3 dos 4 critérios abaixo:</li>
+      <blockquote>
+        <li>Possuir pelo menos 1 caractere minúsculo</li>
+        <li>Possuir pelo menos 1 caractere maiúsculo</li>
+        <li>Possuir pelo menos 1 caractere numérico</li>
+        <li>Possuir pelo menos 1 caractere símbolo</li>
+      </blockquote>
+    </ul>
+  </p>
+  <form action='' method='POST'>
+  <p>
+      Digite uma senha qualquer: 
+      <input type='password' id='senha' autofocus>
+  </p>
+    
+      <span id='ExibeSenha'></span> <br>
+    
+      <span id='ValidaTamanho'></span> <br>
+    
+      <span id ='ValidaMinusculo'>Quantidade de caracteres minúsculos:</span> <br>
+    
+      <span id='ValidaMaiusculo'>Quantidade de caracteres maiúsculos:</span> <br>
+    
+      <span id='ValidaSimbol'>Quantidade de símbolos:</span> <br>
+    
+      <span id='QteNum'>Quantidade de números:</span> <br>
+    
+      <span id='Criterios'>Quantidade de critérios aprovados:</span> <br>
+    
+      <input type='checkbox' id='check' value="Senha aceitável?"> 
+      <label for='check'>Senha aceitável?</label>
+    <br>
+  </form>
+
+</body>
+</html>
